@@ -2,4 +2,74 @@ img{
     display: block;
     margin: 0px auto;
    }
+ul{
+    border: 1px solid rgb(8, 8, 8);
+    box-shadow: 6px 6px 0px black;
+ 
+    display: flex;
+  
+    background: #011603;
    
+    justify-content: space-around;
+    padding: 12px;
+
+}
+h1 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.menu-burger{
+    height: 8rem;
+    line-height: 8rem;
+    text-align: center;
+    padding: 3rem;
+}
+.menu-burger i{
+    position: fixed;
+    top: 9px;
+    right: 15px;
+    font-size: 3rem;
+    color: red;/*couleur provisoire*/
+}
+.menu-burger.modal{
+    background-color: red;
+    height:  100vh;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    opacity: 0.9;
+
+}
+.menu-burger.menuII{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-burger.menuII a{
+    font-size: 5rem;
+    font-weight: 800;
+    color: #011603;
+    padding: 2rem;
+
+}
+.menu-burger i{
+    position: fixed;
+    z-index: 9999;
+    top: 9px;
+    right: 15px;
+    font-size: 3rem;
+    color: aliceblue;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body{
+    font-size: 1.4rem;
+    font-family: 'Quicksand',sans-serif;
+    color: white;
+
+}
+
