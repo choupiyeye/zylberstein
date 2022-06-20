@@ -1,0 +1,12 @@
+ul
+{
+    border: 1px solid rgb(8, 8, 8);
+    box-shadow: 6px 6px 0px black;
+ 
+    display: flex;
+  
+    background: #011603;
+   
+    justify-content: space-around;
+    padding: 12px;
+}
