@@ -1,5 +1,30 @@
-ul
+
+
+a 
 {
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+   font-weight:bold;
+}
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}
+
+  
+figure {
+    text-align:center;
+  }
+  
+  
+ul {
     border: 1px solid rgb(8, 8, 8);
     box-shadow: 6px 6px 0px black;
  
@@ -9,4 +34,8 @@ ul
    
     justify-content: space-around;
     padding: 12px;
-}
+  }
+  
+  ul li {
+    list-style: none; 
+  }
