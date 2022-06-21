@@ -13,7 +13,7 @@ a:hover /* Apparence au survol des liens */
 }
 a:visited /* Quand le visiteur a déjà vu la page concernée */
 {
-    color: #AAA; /* Appliquer une couleur grise */
+    color: rgb(84, 109, 192); /* Appliquer une couleur grise */
 }
 ul {
     border: 1px solid rgb(8, 8, 8);
@@ -37,4 +37,8 @@ ul {
    body{
     background-color: #969996;
     
+}
+iframe{
+  display: flex;
+    margin: auto;
 }
